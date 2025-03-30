@@ -1,0 +1,433 @@
+body {
+  font-family: "Karma", serif;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 2rem 0px 7rem;
+  letter-spacing: 0.0125rem;
+}
+
+header nav {
+  display: flex;
+  gap: 0.9rem;
+}
+
+.socials {
+  display: flex;
+  flex: 0 1 20.2rem;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.socials a {
+  width: 1.1rem;
+}
+
+.socials img {
+  width: 100%;
+}
+
+header #logo {
+  flex: 0 0 6.3rem;
+}
+
+header #logo img {
+  width: 100%;
+  object-fit: fill;
+  justify-self: center;
+}
+
+main > section::after {
+  content: "";
+  border-top: 1px solid;
+  color: rgb(0, 0, 0);
+  display: block;
+  margin-top: 7rem;
+}
+
+main > section > h1,
+main > section > h2 {
+  width: 45rem;
+  margin: 0 auto 9rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3.3rem;
+  text-transform: capitalize;
+}
+
+section#intro h1 span {
+  font-family: "Lavishly Yours", cursive;
+  font-size: 4rem;
+}
+
+main #intro #profile {
+  display: flex;
+  justify-content: space-between;
+  height: 50rem;
+}
+
+main #intro #profile .profile-info {
+  flex: 0 0 15rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  justify-content: space-between;
+  padding: 2.5rem 0;
+}
+
+main #intro #profile .profile-info h2 {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+main #intro #profile .profile-info *::first-letter {
+  text-transform: uppercase;
+}
+
+main #intro #profile .profile-info:last-of-type h2 {
+  font-family: "karma", sans-serif;
+  color: rgba(0, 0, 0, 0.387);
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0125rem;
+}
+
+main #intro #profile .profile-info:last-of-type span {
+  font-family: "Lavishly Yours", cursive;
+  display: inline-block;
+  font-size: 4rem;
+  line-height: 0.9;
+}
+
+main #intro #profile #profile-picture {
+  flex: 0 0 35rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  height: 50rem;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 100rem;
+}
+
+main #intro #profile #profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+main > section > h2 {
+  font-size: 2.65rem;
+  margin: 0 auto 5rem;
+  padding-top: 7rem; /* for in-page links */
+}
+
+main > #advantages #development-tools {
+  display: flex;
+  justify-content: space-between;
+}
+
+main > #advantages #development-tools section {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+
+main > #advantages #development-tools section h3 {
+  color: rgba(0, 0, 0, 0.62);
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.0125rem;
+  text-transform: uppercase;
+}
+
+main > #advantages #development-tools > section > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  height: 20rem;
+  width: 10.5rem;
+  padding: 3rem 2rem;
+  border-radius: 100rem;
+  background-color: rgba(0, 0, 0, 0.089);
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.697);
+}
+
+main > #advantages #development-tools > section > div > img {
+  width: 85%;
+}
+
+main > #latest-projects > div {
+  display: flex;
+  height: 30em;
+  gap: 2.5em;
+}
+
+main > #latest-projects > div > section {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+main > #latest-projects > div > section > div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+main > #latest-projects > div > section h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+main > #latest-projects > div > section span {
+  font-weight: 300;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+
+main > #latest-projects > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(90%);
+}
+
+main > #education-experience > table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+main > #education-experience > table tr {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+main > #education-experience > table tr > * {
+  flex: 1 1;
+}
+
+main > #education-experience > table > thead th {
+  text-align: start;
+  padding: 0 0 1.5rem;
+}
+
+main > #education-experience > table > tbody td {
+  padding: 0.75rem 0;
+}
+
+main > #education-experience > table > tbody > tr:last-child td {
+  padding: 0.75rem 0 0rem;
+}
+
+main > #education-experience > table > tbody td h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+main > #education-experience > table > tbody td span {
+  font-weight: 300;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+
+main > #contact-me h3,
+main > #contact-me h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.015rem;
+  color: rgba(0, 0, 0, 0.656);
+  margin-bottom: 3.5rem;
+}
+
+main > #contact-me > div {
+  display: flex;
+  gap: 8rem;
+}
+
+main > #contact-me > div > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main > #contact-me #my-info {
+  flex: 1 0 15rem;
+  max-height: 23rem;
+}
+
+main > #contact-me #my-info > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 0;
+}
+
+main > #contact-me #my-info h3 {
+  margin-bottom: 0;
+}
+
+main > #contact-me #my-info > div.socials {
+  gap: 1.3rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 0 0;
+  margin: 2rem 0;
+}
+
+main > #contact-me #my-info > div.socials > a {
+  width: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.081);
+  padding: 6.25px;
+  border-radius: 50%;
+  line-height: 0.5;
+  opacity: 0.8;
+}
+
+main > #contact-me #my-info h4 {
+  font-weight: 600;
+  color: black;
+  margin-bottom: 0.3rem;
+}
+
+main > #contact-me #my-info span,
+main > #contact-me #my-info p {
+  color: rgba(0, 0, 0, 0.729);
+  font-size: 0.91rem;
+  font-weight: 500;
+}
+
+main > #contact-me #my-info p {
+  text-transform: capitalize;
+}
+
+main > #contact-me #your-info {
+  max-width: 51.8rem;
+}
+
+main > #contact-me #your-info form {
+  flex: 0 1 100%;
+  column-gap: 1.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+main > #contact-me #your-info form > div {
+  min-width: 49.25%;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 1em;
+}
+
+main > #contact-me #your-info form > div > input,
+main > #contact-me #your-info form > div > select,
+main > #contact-me #your-info form > div > textarea {
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.433);
+  height: 2rem;
+  padding: 0;
+  font-family: "Karma", serif;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.0125rem;
+}
+
+main > #contact-me #your-info form > div > input:focus,
+main > #contact-me #your-info form > div > select:focus,
+main > #contact-me #your-info form > div > textarea:focus {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.876);
+}
+
+main > #contact-me #your-info form > div:nth-last-of-type(2) {
+  height: 6.25rem;
+  margin: 0;
+  width: 100%;
+}
+
+main > #contact-me #your-info form > div:nth-last-of-type(2) > textarea {
+  resize: none;
+  padding: 0.25rem 0;
+  flex: 1;
+}
+
+main > #contact-me #your-info form > div:last-of-type {
+  flex-direction: row;
+  align-items: center;
+  min-width: 0;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin: 2rem 0px 0;
+  letter-spacing: 0.015rem;
+  color: rgba(0, 0, 0, 0.715);
+}
+
+main > #contact-me #your-info form > div:last-of-type > span:hover {
+  cursor: default;
+}
+
+main > #contact-me #your-info form button {
+  background: none;
+  border: none;
+}
+
+main > #contact-me #your-info form button:hover {
+  cursor: pointer;
+}
+
+main > #contact-me #your-info form button > svg {
+  width: 42px;
+}
+
+main > section:last-of-type::after {
+  content: "";
+  border-top: 1px solid;
+  color: rgb(0, 0, 0);
+  display: block;
+  margin: 7rem 0 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.85rem;
+  margin: 3rem 0 6rem;
+  letter-spacing: 0.02rem;
+}
+
+footer > div:first-of-type {
+  text-transform: capitalize;
+  flex: 0 0 20.2rem;
+}
